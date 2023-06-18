@@ -22,10 +22,10 @@
 .nav-logo {
   color: #226597;
   align-items: center;
-  margin-left: 100px;
   cursor: pointer;
+  margin-left: 100px;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2.2rem;
   flex-grow: 1;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
@@ -38,7 +38,7 @@
 }
 
 .nav-links {
-  color: black;
+  color: #87C0CD;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
@@ -118,6 +118,6 @@
   }
 
   .nav-logo{
-    margin-left: 20px;
+    margin-left: 50px;
   }
 }
