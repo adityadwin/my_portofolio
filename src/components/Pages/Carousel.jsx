@@ -9,20 +9,21 @@ import {
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { Homes } from "../Homes";
+import { Experience } from "./Experience";
 
 const Carousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const items = [
     <Homes />,
+    <Experience />,
     <Homes />,
+    <Experience />,
     <Homes />,
+    <Experience />,
     <Homes />,
+    <Experience />,
     <Homes />,
-    <Homes />,
-    <Homes />,
-    <Homes />,
-    <Homes />,
-    <Homes />,
+    <Experience />,
   ];
 
   const handlePrev = () => {
@@ -41,14 +42,14 @@ const Carousel = () => {
   const paginationSize = useBreakpointValue({ base: "3", md: "8" });
 
   return (
-    <Box py={4} bg="#87C0CD">
+    <Box py={4} bg="#F3F9FB">
       <Heading
         ml={{ base: "50px", md: "110px", lg: "110px" }}
         mt="10px"
         mb="30px"
         color="#113F67"
       >
-        Experience
+        Project
       </Heading>
       <Center>
         <Flex alignItems="center">

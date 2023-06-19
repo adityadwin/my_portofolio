@@ -10,6 +10,7 @@ import {
 import Typewriter from "typewriter-effect";
 import Carousel from "./Carousel";
 import { Homes } from "../Homes";
+import { Experience } from "./Experience";
 
 export const Home = () => {
   return (
@@ -78,13 +79,14 @@ export const Home = () => {
                 noOfLines={(1, 10)}
               >
                 Perkenalkan, Saya Aditya Dwi Nandra seorang mahasiswa berusia 20
-                tahun yang sedang menempuh pendidikan di Universitas AKI
-                Semarang, mengambil jurusan Teknik Informatika. Saat ini berada
-                di semester 6 dan memiliki IPK sebesar 3.35. Saya memiliki minat
-                yang kuat dalam bidang frontend web development, dengan keahlian
-                dalam HTML, CSS, dan JavaScript. Saya senang merancang tampilan
-                antarmuka yang menarik dan responsif, desain yang estetis dengan
-                fungsionalitas yang baik dalam setiap proyek yang saya kerjakan.
+                tahun yang sedang menempuh pendidikan S1 Teknik Informatika di
+                Universitas AKI Semarang, Saat ini saya berada di semester 6.
+                Saya memiliki minat yang kuat dalam bidang frontend web
+                development, dengan pemahaman dalam HTML, CSS, JavaScript serta
+                Framework dan library seperti React, Bootstrap, Tailwind dan
+                Chakra. Saya senang merancang tampilan antarmuka yang menarik
+                dan responsif, desain yang estetis dengan fungsionalitas yang
+                baik dalam setiap proyek yang saya kerjakan.
               </Text>
 
               <Homes />
@@ -94,7 +96,7 @@ export const Home = () => {
 
         <GridItem
           w="100%"
-          h={{ base: "70vh", md: "100vh", lg: "100vh" }}
+          h={{ base: "70vh", md: "100vh", lg: "110vh" }}
           bg="#F3F9FB"
           position="relative"
         >
@@ -118,6 +120,9 @@ export const Home = () => {
           </Center>
         </GridItem>
       </Grid>
+
+      <Experience />
+
       <Carousel />
     </Container>
   );

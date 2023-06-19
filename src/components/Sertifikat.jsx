@@ -50,6 +50,48 @@ const Sertifikat = () => {
       image:
         "https://files.jotform.com/jotformapps/employee-of-the-month-certificate-template-f457f340a8dd4b2abf46f97264584df7.png?v=1687162857", // Ubah dengan nama gambar sertifikat Anda
     },
+    {
+      name: "Sertifikat 2",
+      description: "Deskripsi sertifikat 2",
+      image:
+        "https://files.jotform.com/jotformapps/employee-of-the-month-certificate-template-f457f340a8dd4b2abf46f97264584df7.png?v=1687162857", // Ubah dengan nama gambar sertifikat Anda
+    },
+    {
+      name: "Sertifikat 2",
+      description: "Deskripsi sertifikat 2",
+      image:
+        "https://files.jotform.com/jotformapps/employee-of-the-month-certificate-template-f457f340a8dd4b2abf46f97264584df7.png?v=1687162857", // Ubah dengan nama gambar sertifikat Anda
+    },
+    {
+      name: "Sertifikat 2",
+      description: "Deskripsi sertifikat 2",
+      image:
+        "https://files.jotform.com/jotformapps/employee-of-the-month-certificate-template-f457f340a8dd4b2abf46f97264584df7.png?v=1687162857", // Ubah dengan nama gambar sertifikat Anda
+    },
+    {
+      name: "Sertifikat 2",
+      description: "Deskripsi sertifikat 2",
+      image:
+        "https://files.jotform.com/jotformapps/employee-of-the-month-certificate-template-f457f340a8dd4b2abf46f97264584df7.png?v=1687162857", // Ubah dengan nama gambar sertifikat Anda
+    },
+    {
+      name: "Sertifikat 2",
+      description: "Deskripsi sertifikat 2",
+      image:
+        "https://files.jotform.com/jotformapps/employee-of-the-month-certificate-template-f457f340a8dd4b2abf46f97264584df7.png?v=1687162857", // Ubah dengan nama gambar sertifikat Anda
+    },
+    {
+      name: "Sertifikat 2",
+      description: "Deskripsi sertifikat 2",
+      image:
+        "https://files.jotform.com/jotformapps/employee-of-the-month-certificate-template-f457f340a8dd4b2abf46f97264584df7.png?v=1687162857", // Ubah dengan nama gambar sertifikat Anda
+    },
+    {
+      name: "Sertifikat 2",
+      description: "Deskripsi sertifikat 2",
+      image:
+        "https://files.jotform.com/jotformapps/employee-of-the-month-certificate-template-f457f340a8dd4b2abf46f97264584df7.png?v=1687162857", // Ubah dengan nama gambar sertifikat Anda
+    },
     // Tambahkan sertifikat lainnya sesuai kebutuhan
   ];
 
