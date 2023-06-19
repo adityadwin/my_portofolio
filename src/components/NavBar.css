@@ -20,10 +20,10 @@
 }
 
 .nav-logo {
-  color: #226597;
+  color: #113F67;
   align-items: center;
   cursor: pointer;
-  margin-left: 100px;
+  margin-left: 50px;
   text-decoration: none;
   font-size: 2.2rem;
   flex-grow: 1;
@@ -38,7 +38,7 @@
 }
 
 .nav-links {
-  color: #87C0CD;
+  color: #226597;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
@@ -64,12 +64,12 @@
 
 .nav-item:hover:after {
   width: 100%;
-  background: #F3F9FB;
+  background: black;
 }
 
 .nav-item .active {
-  color: black;
-  border: 1px solid blackntl deploy;
+  color: #113F67;
+  border: 1px solid black;
 }
 
 .nav-icon {
@@ -90,7 +90,7 @@
   }
 
   .nav-menu.active {
-    background: #1f5156;
+    background: #87C0CD;
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
@@ -118,6 +118,7 @@
   }
 
   .nav-logo{
-    margin-left: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
   }
 }

@@ -3,25 +3,26 @@ import {
   Button,
   Center,
   Flex,
+  Heading,
   Text,
   useBreakpointValue,
 } from "@chakra-ui/react";
 import { useState } from "react";
-import { Contact } from "./Contact";
+import { Homes } from "../Homes";
 
 const Carousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const items = [
-    <Contact />,
-    <Contact />,
-    <Contact />,
-    <Contact />,
-    <Contact />,
-    <Contact />,
-    <Contact />,
-    <Contact />,
-    <Contact />,
-    <Contact />,
+    <Homes />,
+    <Homes />,
+    <Homes />,
+    <Homes />,
+    <Homes />,
+    <Homes />,
+    <Homes />,
+    <Homes />,
+    <Homes />,
+    <Homes />,
   ];
 
   const handlePrev = () => {
@@ -41,6 +42,14 @@ const Carousel = () => {
 
   return (
     <Box py={4} bg="#87C0CD">
+      <Heading
+        ml={{ base: "50px", md: "110px", lg: "110px" }}
+        mt="10px"
+        mb="30px"
+        color="#113F67"
+      >
+        Experience
+      </Heading>
       <Center>
         <Flex alignItems="center">
           <Button size={buttonSize} onClick={handlePrev}>

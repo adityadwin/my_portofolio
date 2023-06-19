@@ -34,7 +34,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Contact
+                Certifications
               </NavLink>
             </li>
           </ul>
