@@ -8,23 +8,15 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 import { useState } from "react";
-import { Homes } from "../Homes";
-import { Experience } from "./Experience";
+import { One } from "./Projek/One";
+import { Two } from "./Projek/Two";
+import { Three } from "./Projek/Three";
+import { Four } from "./Projek/Four";
+import { Five } from "./Projek/Five";
 
 const Carousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const items = [
-    <Homes />,
-    <Experience />,
-    <Homes />,
-    <Experience />,
-    <Homes />,
-    <Experience />,
-    <Homes />,
-    <Experience />,
-    <Homes />,
-    <Experience />,
-  ];
+  const items = [<One />, <Two />, <Three />, <Four />, <Five />];
 
   const handlePrev = () => {
     setActiveIndex((prevIndex) =>
@@ -49,7 +41,7 @@ const Carousel = () => {
         mb="30px"
         color="#113F67"
       >
-        Project
+        Projects
       </Heading>
       <Center>
         <Flex alignItems="center">
