@@ -11,6 +11,7 @@ import {
   Box,
 } from "@chakra-ui/react";
 import { useState } from "react";
+import image1 from "../asset/images/DC/image1.png";
 
 export const Four = () => {
   const arrowStyles = {
@@ -33,7 +34,7 @@ export const Four = () => {
   };
   const slides = [
     {
-      img: "https://i.postimg.cc/vm6FgjpZ/Screenshot-2023-06-20-155131.png",
+      img: image1,
     },
   ];
   const [currentSlide, setCurrentSlide] = useState(0);

@@ -71,8 +71,8 @@ export const Experience = () => {
                 networking.
               </ListItem>
               <ListItem mb="20px">
-                Materi meliputi penggunaan terminal, Visual Studio Code, Git
-                version control, dan hosting aplikasi.
+                Menerapkan penggunaan terminal, Visual Studio Code, Git version
+                control, dan hosting aplikasi.
               </ListItem>
 
               <Text fontSize="xl" as="b">
@@ -83,8 +83,8 @@ export const Experience = () => {
                 dasar.
               </ListItem>
               <ListItem mb="20px">
-                Materi meliputi struktur dokumen HTML, penggunaan form, dan
-                penerapan styling dengan CSS.
+                Menerapkan struktur dokumen HTML, penggunaan form, dan penerapan
+                styling dengan CSS.
               </ListItem>
 
               <Text fontSize="xl" as="b">
@@ -92,7 +92,7 @@ export const Experience = () => {
               </Text>
               <ListItem>Memahami konsep dan fitur JavaScript.</ListItem>
               <ListItem mb="20px">
-                Materi meliputi variabel, tipe data, array, object, looping,
+                Menerapkan variabel, tipe data, array, object, looping,
                 conditional, dan asynchronous.
               </ListItem>
 
@@ -104,7 +104,7 @@ export const Experience = () => {
                 aplikasi frontend.
               </ListItem>
               <ListItem mb="20px">
-                Materi meliputi penggunaan NPM, modul eksternal, package.json,
+                Menerapkan penggunaan NPM, modul eksternal, package.json,
                 environment variable, dan perbedaan antara commonJS dan ES6.
               </ListItem>
 
@@ -124,8 +124,8 @@ export const Experience = () => {
                 dengan browser dari sisi klien.
               </ListItem>
               <ListItem mb="20px">
-                Materi meliputi Document Object Model, Web Storage API, dan
-                browser event.
+                Menerapkan Document Object Model, Web Storage API, dan browser
+                event.
               </ListItem>
 
               <Text fontSize="xl" as="b">

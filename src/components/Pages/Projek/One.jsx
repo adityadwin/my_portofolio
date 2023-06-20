@@ -11,7 +11,13 @@ import {
   Box,
 } from "@chakra-ui/react";
 import { useState } from "react";
-
+import image1 from "../asset/images/WP/image1.png";
+import image2 from "../asset/images/WP/image2.png";
+import image3 from "../asset/images/WP/image3.png";
+import image4 from "../asset/images/WP/image4.png";
+import image5 from "../asset/images/WP/image5.png";
+import image6 from "../asset/images/WP/image6.png";
+import image7 from "../asset/images/WP/image7.png";
 export const One = () => {
   const arrowStyles = {
     cursor: "pointer",
@@ -33,25 +39,25 @@ export const One = () => {
   };
   const slides = [
     {
-      img: "https://i.postimg.cc/TYRnWB3c/Screenshot-2023-06-03-012719.png",
+      img: image1,
     },
     {
-      img: "https://i.postimg.cc/59sbJkjr/Screenshot-2023-06-03-012454.png",
+      img: image2,
     },
     {
-      img: "https://i.postimg.cc/9QWkfcSt/Screenshot-2023-06-03-014249.png",
+      img: image7,
     },
     {
-      img: "https://i.postimg.cc/zXwM5ydG/Screenshot-2023-06-03-012813.png",
+      img: image3,
     },
     {
-      img: "https://i.postimg.cc/KYt3syGw/Screenshot-2023-06-03-012852.png",
+      img: image4,
     },
     {
-      img: "https://i.postimg.cc/Qtb9hkWq/Screenshot-2023-06-03-012911.png",
+      img: image5,
     },
     {
-      img: "https://i.postimg.cc/zB5bsP3B/Screenshot-2023-06-03-012929.png",
+      img: image6,
     },
   ];
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -180,15 +186,7 @@ export const One = () => {
               dengan nyaman melalui berbagai perangkat. Kami juga memperhatikan
               integrasi yang baik dengan sistem pembayaran online dan
               pengelolaan inventaris. Fitur-fitur seperti keranjang belanja,
-              pencarian produk, ulasan pengguna, dan sistem manajemen pengguna
-              juga menjadi perhatian kami.
-            </Text>
-            <Text fontSize={{ base: "sm", lg: "lg" }} mt="30px">
-              Tim kami berupaya untuk menghasilkan tugas akhir yang berkualitas
-              tinggi dengan fokus pada antarmuka pengguna yang intuitif dan
-              pengalaman belanja yang menyenangkan. Melalui proyek ini, kami
-              belajar banyak tentang pengembangan web, kerjasama tim, dan
-              pemecahan masalah.
+              pencarian produk, ulasan pengguna.
             </Text>
           </CardBody>
         </Card>

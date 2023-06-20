@@ -102,8 +102,22 @@ export const Homes = () => {
         <Box>
           <Center>
             <Image
-              src="https://camo.githubusercontent.com/3b6aa33b897ecdf82b578f52a5a30ded5ab3f9b3b5d86886e61db49e141424c6/68747470733a2f2f63646e2e67756473656e2e636f6d2f323032312f30392f33302f61663930626163383061393434376631383135366532353165636263316466662e706e67"
+              src="https://cdn-icons-png.flaticon.com/128/919/919825.png"
               alt="Icon 6"
+              boxSize={{ base: "20px", md: "30px", lg: "30px" }}
+              ransition="transform 0.3s ease-in-out"
+              _hover={{ transform: "scale(1.2)" }}
+            />
+          </Center>
+          <Center>
+            <Text fontSize={{ base: "xs", md: "xl", lg: "xl" }}>Node</Text>
+          </Center>
+        </Box>
+        <Box>
+          <Center>
+            <Image
+              src="https://camo.githubusercontent.com/3b6aa33b897ecdf82b578f52a5a30ded5ab3f9b3b5d86886e61db49e141424c6/68747470733a2f2f63646e2e67756473656e2e636f6d2f323032312f30392f33302f61663930626163383061393434376631383135366532353165636263316466662e706e67"
+              alt="Icon 7"
               boxSize={{ base: "20px", md: "30px", lg: "30px" }}
               ransition="transform 0.3s ease-in-out"
               _hover={{ transform: "scale(1.2)" }}
@@ -117,7 +131,7 @@ export const Homes = () => {
           <Center>
             <Image
               src="https://cdn-icons-png.flaticon.com/128/919/919836.png"
-              alt="Icon 7"
+              alt="Icon 8"
               boxSize={{ base: "20px", md: "30px", lg: "30px" }}
               ransition="transform 0.3s ease-in-out"
               _hover={{ transform: "scale(1.2)" }}
@@ -131,7 +145,7 @@ export const Homes = () => {
           <Center>
             <Image
               src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png"
-              alt="Icon 8"
+              alt="Icon 9"
               boxSize={{ base: "20px", md: "30px", lg: "30px" }}
               ransition="transform 0.3s ease-in-out"
               _hover={{ transform: "scale(1.2)" }}
@@ -145,7 +159,7 @@ export const Homes = () => {
           <Center>
             <Image
               src="https://cdn-icons-png.flaticon.com/128/5968/5968853.png"
-              alt="Icon 9"
+              alt="Icon 10"
               boxSize={{ base: "20px", md: "30px", lg: "30px" }}
               ransition="transform 0.3s ease-in-out"
               _hover={{ transform: "scale(1.2)" }}
@@ -159,7 +173,7 @@ export const Homes = () => {
           <Center>
             <Image
               src="https://cdn-icons-png.flaticon.com/128/5968/5968672.png"
-              alt="Icon 10"
+              alt="Icon 11"
               boxSize={{ base: "20px", md: "30px", lg: "30px" }}
               ransition="transform 0.3s ease-in-out"
               _hover={{ transform: "scale(1.2)" }}
@@ -173,7 +187,7 @@ export const Homes = () => {
           <Center>
             <Image
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/900px-Tailwind_CSS_Logo.svg.png?20211001194333"
-              alt="Icon 11"
+              alt="Icon 12"
               boxSize={{ base: "20px", md: "30px", lg: "30px" }}
               ransition="transform 0.3s ease-in-out"
               _hover={{ transform: "scale(1.2)" }}
@@ -187,7 +201,7 @@ export const Homes = () => {
           <Center>
             <Image
               src="https://cdn-icons-png.flaticon.com/128/5968/5968520.png"
-              alt="Icon 12"
+              alt="Icon 13"
               boxSize={{ base: "20px", md: "30px", lg: "30px" }}
               ransition="transform 0.3s ease-in-out"
               _hover={{ transform: "scale(1.2)" }}
@@ -201,7 +215,7 @@ export const Homes = () => {
           <Center>
             <Image
               src="https://cdn-icons-png.flaticon.com/128/5611/5611037.png"
-              alt="Icon 13"
+              alt="Icon 14"
               boxSize={{ base: "20px", md: "30px", lg: "30px" }}
               ransition="transform 0.3s ease-in-out"
               _hover={{ transform: "scale(1.2)" }}
@@ -217,7 +231,7 @@ export const Homes = () => {
           <Center>
             <Image
               src="https://cdn-icons-png.flaticon.com/128/5968/5968705.png"
-              alt="Icon 14"
+              alt="Icon 15"
               boxSize={{ base: "20px", md: "30px", lg: "30px" }}
               ransition="transform 0.3s ease-in-out"
               _hover={{ transform: "scale(1.2)" }}
@@ -231,7 +245,7 @@ export const Homes = () => {
           <Center>
             <Image
               src="https://seeklogo.com/images/C/corel-draw-2020-logo-270FEE465B-seeklogo.com.png"
-              alt="Icon 15"
+              alt="Icon 16"
               boxSize={{ base: "20px", md: "30px", lg: "30px" }}
               ransition="transform 0.3s ease-in-out"
               _hover={{ transform: "scale(1.2)" }}
@@ -245,7 +259,7 @@ export const Homes = () => {
           <Center>
             <Image
               src="https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/canva-icon.svg"
-              alt="Icon 16"
+              alt="Icon 17"
               boxSize={{ base: "20px", md: "30px", lg: "30px" }}
               ransition="transform 0.3s ease-in-out"
               _hover={{ transform: "scale(1.2)" }}

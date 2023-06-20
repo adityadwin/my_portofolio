@@ -12,11 +12,10 @@ import { One } from "./Projek/One";
 import { Two } from "./Projek/Two";
 import { Three } from "./Projek/Three";
 import { Four } from "./Projek/Four";
-import { Five } from "./Projek/Five";
 
 const Carousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const items = [<One />, <Two />, <Three />, <Four />, <Five />];
+  const items = [<One />, <Two />, <Three />, <Four />];
 
   const handlePrev = () => {
     setActiveIndex((prevIndex) =>
