@@ -9,6 +9,13 @@
   top: 0;
   z-index: 20;
 }
+.nav-download {
+  color: #226597;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  
+}
 
 .nav-container {
   display: flex;

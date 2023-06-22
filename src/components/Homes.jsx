@@ -143,13 +143,15 @@ export const Homes = () => {
         </Box>
         <Box>
           <Center>
-            <Image
-              src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png"
-              alt="Icon 9"
-              boxSize={{ base: "20px", md: "30px", lg: "30px" }}
-              ransition="transform 0.3s ease-in-out"
-              _hover={{ transform: "scale(1.2)" }}
-            />
+            <a href="https://github.com/adityadwin">
+              <Image
+                src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png"
+                alt="Icon 9"
+                boxSize={{ base: "20px", md: "30px", lg: "30px" }}
+                ransition="transform 0.3s ease-in-out"
+                _hover={{ transform: "scale(1.2)" }}
+              />
+            </a>
           </Center>
           <Center>
             <Text fontSize={{ base: "xs", md: "xl", lg: "xl" }}>GitHub</Text>
@@ -157,13 +159,15 @@ export const Homes = () => {
         </Box>
         <Box>
           <Center>
-            <Image
-              src="https://cdn-icons-png.flaticon.com/128/5968/5968853.png"
-              alt="Icon 10"
-              boxSize={{ base: "20px", md: "30px", lg: "30px" }}
-              ransition="transform 0.3s ease-in-out"
-              _hover={{ transform: "scale(1.2)" }}
-            />
+            <a href="https://gitlab.com/adityadwin1">
+              <Image
+                src="https://cdn-icons-png.flaticon.com/128/5968/5968853.png"
+                alt="Icon 10"
+                boxSize={{ base: "20px", md: "30px", lg: "30px" }}
+                ransition="transform 0.3s ease-in-out"
+                _hover={{ transform: "scale(1.2)" }}
+              />
+            </a>
           </Center>
           <Center>
             <Text fontSize={{ base: "xs", md: "xl", lg: "xl" }}>GitLab</Text>

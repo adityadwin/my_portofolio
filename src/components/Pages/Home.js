@@ -6,11 +6,13 @@ import {
   Container,
   Box,
   Heading,
+  Image,
 } from "@chakra-ui/react";
 import Typewriter from "typewriter-effect";
 import Carousel from "./Carousel";
 import { Homes } from "../Homes";
 import { Experience } from "./Experience";
+import Courses from "./Courses/Coruses";
 
 export const Home = () => {
   return (
@@ -56,8 +58,8 @@ export const Home = () => {
                         strings: [
                           "Student",
                           "Frontend Developer",
-                          "UI Designer",
                           "Graphic Designer",
+                          "UI Designer",
                           "Beatboxer",
                         ],
                         autoStart: true,
@@ -88,7 +90,6 @@ export const Home = () => {
                 dan responsif, desain yang estetis dengan fungsionalitas yang
                 baik dalam setiap proyek yang saya kerjakan.
               </Text>
-
               <Homes />
             </Box>
           </Center>
@@ -101,29 +102,21 @@ export const Home = () => {
           position="relative"
         >
           <Center>
-            {/* <Image
-              src="https://i.postimg.cc/Kj6nVm9t/me.png"
+            <Image
+              src="https://i.postimg.cc/ZK3Lbsmj/me.png"
               alt="MYSQL"
               position="absolute"
               top={{ base: "37%", md: "55%", lg: "49%" }}
               left="50%"
-              boxSize={{ base: "300px", md: "500px", lg: "500px" }}
+              boxSize={{ base: "350px", md: "500px", lg: "500px" }}
               transform="translate(-50%, -50%)"
-            /> */}
-            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-              <path
-                fill="#87C0CD"
-                d="M36.7,-39.6C47.8,-25.5,57.3,-12.8,57.7,0.4C58.1,13.6,49.4,27.1,38.2,37.9C27.1,48.7,13.6,56.7,-3.6,60.3C-20.8,63.9,-41.6,63.2,-53,52.4C-64.5,41.6,-66.6,20.8,-65.6,1C-64.6,-18.8,-60.5,-37.6,-49,-51.6C-37.6,-65.7,-18.8,-75,-3,-72C12.8,-69,25.5,-53.7,36.7,-39.6Z"
-                transform="translate(100 100)"
-              />
-            </svg>
+            />
           </Center>
         </GridItem>
       </Grid>
-
       <Experience />
-
       <Carousel />
+      <Courses />
     </Container>
   );
 };

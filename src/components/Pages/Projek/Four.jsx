@@ -59,7 +59,7 @@ export const Four = () => {
   return (
     <Box py={4} bg="#F3F9FB">
       <Center>
-        <Card maxW={{ base: "90%", md: "70%", lg: "70%" }} boxShadow="none">
+        <Card maxW={{ base: "90%", md: "70%", lg: "70%" }} boxShadow="lg">
           <CardHeader>
             <Flex spacing="4">
               <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">

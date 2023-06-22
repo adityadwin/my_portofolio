@@ -39,6 +39,7 @@ const Carousel = () => {
         mt="10px"
         mb="30px"
         color="#113F67"
+        fontSize={{ base: "4xl", lg: "5xl" }}
       >
         Projects
       </Heading>

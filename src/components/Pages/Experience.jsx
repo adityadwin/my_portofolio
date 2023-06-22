@@ -24,7 +24,7 @@ export const Experience = () => {
         Experience
       </Heading>
       <Center>
-        <Card maxW="90%" boxShadow="none">
+        <Card maxW="90%" boxShadow="xl">
           <CardHeader>
             <Flex spacing="4">
               <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">

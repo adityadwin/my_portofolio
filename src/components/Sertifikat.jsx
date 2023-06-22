@@ -1,4 +1,4 @@
-import { Box, SimpleGrid, Heading, Text, Image } from "@chakra-ui/react";
+import { Box, SimpleGrid, Heading, Image } from "@chakra-ui/react";
 import image1 from "./sertifikat/image1.jpg";
 import image2 from "./sertifikat/image2.jpg";
 import image3 from "./sertifikat/image3.jpg";
@@ -20,96 +20,94 @@ import image17 from "./sertifikat/image17.png";
 const Sertifikat = () => {
   const certificates = [
     {
-      name: "Sertifikat 1",
-      description: "Deskripsi sertifikat 1",
-      image: image1, // Ubah dengan nama gambar sertifikat Anda
+      name: "Sertifikat Kelulusan MSIB Ruangguru | MSIB",
+      image: image1,
     },
     {
-      name: "Sertifikat 2",
-      description: "Deskripsi sertifikat 2",
-      image: image2, // Ubah dengan nama gambar sertifikat Anda
+      name: "Sertifikat General Competence | MSIB",
+
+      image: image2,
     },
     {
-      name: "Sertifikat 3",
-      description: "Deskripsi sertifikat 3",
-      image: image3, // Ubah dengan nama gambar sertifikat Anda
+      name: "Sertifikat Software Engineering[FE] | MSIB",
+
+      image: image3,
     },
     {
-      name: "Sertifikat 4",
-      description: "Deskripsi sertifikat 4",
-      image: image4, // Ubah dengan nama gambar sertifikat Anda
+      name: "Sertifikat Front End Web Development with HTML & CSS[FE] | MSIB",
+
+      image: image4,
     },
     {
-      name: "Sertifikat 5",
-      description: "Deskripsi sertifikat 5",
-      image: image5, // Ubah dengan nama gambar sertifikat Anda
+      name: "Sertifikat Programming with Javascript | MSIB",
+
+      image: image5,
     },
     {
-      name: "Sertifikat 6",
-      description: "Deskripsi sertifikat 6",
-      image: image6, // Ubah dengan nama gambar sertifikat Anda
+      name: "Sertifikat Intro to Node.js | MSIB",
+
+      image: image6,
     },
     {
-      name: "Sertifikat 7",
-      description: "Deskripsi sertifikat 7",
-      image: image7, // Ubah dengan nama gambar sertifikat Anda
+      name: "Sertifikat Interacting with Web APIs | MSIB",
+
+      image: image7,
     },
     {
-      name: "Sertifikat 8",
-      description: "Deskripsi sertifikat 8",
-      image: image8, // Ubah dengan nama gambar sertifikat Anda
+      name: "Sertifikat Front End Web Development with React | MSIB",
+
+      image: image8,
     },
     {
-      name: "Sertifikat 9",
-      description: "Deskripsi sertifikat 9",
-      image: image9, // Ubah dengan nama gambar sertifikat Anda
+      name: "Sertifikat Consumming RESTful API | MSIB",
+
+      image: image9,
     },
     {
-      name: "Sertifikat 10",
-      description: "Deskripsi sertifikat 10",
-      image: image10, // Ubah dengan nama gambar sertifikat Anda
+      name: "Sertifikat Front End Deployment To Production | MSIB",
+
+      image: image10,
     },
     {
-      name: "Sertifikat 11",
-      description: "Deskripsi sertifikat 11",
-      image: image16, // Ubah dengan nama gambar sertifikat Anda
+      name: "Sertifikat Belajar Dasar Pemrograman JavaScript | DICODING",
+      link: "https://www.dicoding.com/certificates/MRZMQNWR0PYQ",
+      image: image16,
     },
     {
-      name: "Sertifikat 12",
-      description: "Deskripsi sertifikat 12",
-      image: image14, // Ubah dengan nama gambar sertifikat Anda
+      name: "Sertifikat Belajar Dasar Pemrograman Web | DICODING",
+      link: "https://www.dicoding.com/certificates/QLZ9Q3N67Z5D",
+      image: image14,
     },
     {
-      name: "Sertifikat 13",
-      description: "Deskripsi sertifikat 13",
-      image: image13, // Ubah dengan nama gambar sertifikat Anda
+      name: "Sertifikat Memulai Pemrograman Dengan Python | DICODING",
+      link: "https://www.dicoding.com/certificates/EYX46GDM5PDL",
+      image: image13,
     },
     {
-      name: "Sertifikat 14",
-      description: "Deskripsi sertifikat 15",
-      image: image15, // Ubah dengan nama gambar sertifikat Anda
+      name: "Sertifikat Belajar Dasar Visualisasi Data | DICODING",
+      link: "https://www.dicoding.com/certificates/2VX3JK94JPYQ",
+      image: image15,
     },
     {
-      name: "Sertifikat 15",
-      description: "Deskripsi sertifikat 16",
-      image: image17, // Ubah dengan nama gambar sertifikat Anda
+      name: "Sertifikat Meniti Karier sebagai Software Developer | DICODING",
+      link: "https://www.dicoding.com/certificates/JLX1D9KV6Z72",
+      image: image17,
     },
     {
-      name: "Sertifikat 16",
-      description: "Deskripsi sertifikat 16",
-      image: image11, // Ubah dengan nama gambar sertifikat Anda
+      name: "Sertifikat JavaScript Projects",
+      link: "https://www.mygreatlearning.com/academy/courses/8879373/47896#?utm_source=share_with_friends&gl_source=share_with_friends",
+      image: image11,
     },
     {
-      name: "Sertifikat 17",
-      description: "Deskripsi sertifikat 16",
-      image: image12, // Ubah dengan nama gambar sertifikat Anda
+      name: "Sertifikat Front End Development - HTML",
+      link: "https://www.mygreatlearning.com/academy/courses/8879373/12761#?utm_source=share_with_friends&gl_source=share_with_friends",
+      image: image12,
     },
-    // Tambahkan sertifikat lainnya sesuai kebutuhan
   ];
 
   return (
     <Box py={8} bg="#F3F9FB">
-      <Heading as="h2" mb={4} textAlign="center">
+      <Heading as="h2" mb={4} textAlign="center" color="#113F67">
         Sertifikat
       </Heading>
       <SimpleGrid columns={[1, 2, 3]} spacing={4} bg="#F3F9FB">
@@ -123,17 +121,22 @@ const Sertifikat = () => {
             boxShadow="md"
             bg="#fff"
           >
-            <Image
-              src={certificate.image}
-              alt={certificate.name}
-              mb={4}
-              borderRadius="md"
-              objectFit="cover"
-            />
+            <a
+              href={certificate.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={certificate.image}
+                alt={certificate.name}
+                mb={4}
+                borderRadius="md"
+                objectFit="cover"
+              />
+            </a>
             <Heading as="h3" fontSize="xl" mb={2}>
               {certificate.name}
             </Heading>
-            <Text>{certificate.description}</Text>
           </Box>
         ))}
       </SimpleGrid>
