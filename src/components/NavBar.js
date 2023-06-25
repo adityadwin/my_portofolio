@@ -11,7 +11,7 @@ function NavBar() {
     // Logic untuk mengatur tindakan download file
     // Misalnya:
     const fileUrl =
-      "https://docs.google.com/document/d/1ZeN-svUXLIGyiaRa2tJGw5lzawctP2GXJYWuEnyETyA/export?format=pdf";
+      "https://docs.google.com/document/d/12TXFs6WBRS5OaPg9k1TIqtde5_wyC0fGOdFmMK-NSJE/export?format=pdf";
 
     const link = document.createElement("a");
     link.href = fileUrl;
@@ -51,7 +51,7 @@ function NavBar() {
                 Certifications
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-bg">
               <button className="nav-download" onClick={handleDownload}>
                 Download CV
               </button>

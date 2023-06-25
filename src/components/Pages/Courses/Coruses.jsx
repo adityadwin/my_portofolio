@@ -93,8 +93,8 @@ const Courses = () => {
         maxW="90%"
         marginX="auto"
         display="grid"
-        gridTemplateColumns={{ base: "repeat(2, 1fr)", md: "repeat(3, 1fr)" }}
-        gridTemplateRows={{ base: "repeat(2, 1fr)", md: "repeat(1, 1fr)" }}
+        gridTemplateColumns={{ base: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}
+        gridTemplateRows={{ base: "repeat(1, 1fr)", md: "repeat(1, 1fr)" }}
         gap={4}
       >
         {data.map((item, index) => (

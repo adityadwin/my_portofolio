@@ -97,16 +97,17 @@ export const Home = () => {
 
         <GridItem
           w="100%"
-          h={{ base: "70vh", md: "100vh", lg: "110vh" }}
+          h={{ base: "60vh", md: "40vh", lg: "110vh" }}
           bg="#F3F9FB"
           position="relative"
         >
           <Center>
             <Image
-              src="https://i.postimg.cc/ZK3Lbsmj/me.png"
-              alt="MYSQL"
+              src="https://i.postimg.cc/q7p6N8sD/test.png"
+              // src="https://i.postimg.cc/ZK3Lbsmj/me.png"
+              alt="Profile"
               position="absolute"
-              top={{ base: "37%", md: "55%", lg: "49%" }}
+              top={{ base: "35%", md: "10%", lg: "49%" }}
               left="50%"
               boxSize={{ base: "350px", md: "500px", lg: "500px" }}
               transform="translate(-50%, -50%)"
