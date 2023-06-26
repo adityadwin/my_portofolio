@@ -11,7 +11,7 @@ function NavBar() {
     // Logic untuk mengatur tindakan download file
     // Misalnya:
     const fileUrl =
-      "https://docs.google.com/document/d/1tneGV66yyfoqTqYCsw51O_qbyUpWef8i/export?format=pdf";
+      "https://docs.google.com/document/d/1fxqHGb3-x_807HEtQn-YVYDhl71o6gQb/export?format=pdf";
 
     const link = document.createElement("a");
     link.href = fileUrl;
