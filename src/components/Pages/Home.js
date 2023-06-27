@@ -103,7 +103,7 @@ export const Home = () => {
         >
           <Center>
             <Image
-              src="https://i.postimg.cc/ZK3Lbsmj/me.png"
+              src="https://i.postimg.cc/C1BBSY2W/me.png"
               // src="https://i.postimg.cc/ZK3Lbsmj/me.png"
               alt="Profile"
               position="absolute"
